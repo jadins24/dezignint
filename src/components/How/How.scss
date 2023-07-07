@@ -1,0 +1,76 @@
+.how{
+    padding: 30px 0;
+    position: relative;
+
+    .how-container{
+        width: 85%;
+        margin: 0 auto;
+        
+
+        .how-head{
+            text-align: center;
+
+
+        }
+        .how-content{
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .how-card1{
+                width: 20%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                
+                .how-card1-img{
+                    width: 100px ;
+                    height: 100px ;
+                    border-radius: 50%;
+                    background-color: aquamarine;
+
+                }
+                .how-card1-text{
+                    margin: 10px 0;
+
+                }
+
+            }
+        }
+        .how-btns{
+            display: flex;
+            justify-content: center;
+            
+            .how-btn{
+                width: 30%;
+                padding: 10px 0;
+                text-align: center;
+                background-color: red;
+                border-radius: 50px;
+                color: black;
+                font-weight: 700;
+                cursor: pointer;
+            }
+
+        }
+
+    }
+    .forms{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+
+    }
+}

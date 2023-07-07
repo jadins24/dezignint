@@ -1,0 +1,84 @@
+.contact{
+
+    .contact-head{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        background: url('../../assets/img/celling.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .contact-head-text{
+            width: 85%;
+            margin: 0 auto;
+            
+
+            p{
+                color: red;
+            }
+            h1{
+                color: white;
+            }
+        }
+        
+    }
+    .contact-container{
+        width: 85%;
+        margin: 0 auto;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+
+        .contact-content1{
+            width: 50%;
+
+        }
+        .contact-content2{
+            
+
+            width: 50%;
+
+            form{
+                
+                padding: 30px 0;
+
+                input{
+                    width: 50%;
+                    display: block;
+                    padding: 10px 0;
+                    font-size: 18px;
+                    border: none;
+                    border-bottom: 2px solid black;
+                    margin: 10px 0;
+                    background-color: transparent;
+                }
+                input:focus {
+                    outline: none;
+                }
+                input::-webkit-outer-spin-button,
+                input::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+
+                ::placeholder {
+                    color: black;
+                    opacity: 1; 
+                  }
+                
+                .btn{
+                    border: none;
+                    padding: 10px 20px;
+                    border-radius: 50px;
+                    background-color: red;
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+
+
+        }
+    }
+}

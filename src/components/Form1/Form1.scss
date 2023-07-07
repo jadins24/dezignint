@@ -1,0 +1,64 @@
+.form1{
+    
+    .form1-container{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+
+        .form1-content1{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+
+        }
+        .form1-content2{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+
+            form{
+
+                input{
+                    width: 100%;
+                    display: block;
+                    padding: 10px 0;
+                    font-size: 18px;
+                    border: none;
+                    border-bottom: 2px solid black;
+                    margin: 10px 0;
+                    background-color: transparent;
+                }
+                input:focus {
+                    outline: none;
+                }
+                input::-webkit-outer-spin-button,
+                input::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+
+                ::placeholder {
+                    color: black;
+                    opacity: 1; 
+                  }
+                
+                .btn{
+                    border: none;
+                    padding: 10px 20px;
+                    border-radius: 50px;
+                    background-color: red;
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+
+
+        }
+
+
+    }
+
+}
